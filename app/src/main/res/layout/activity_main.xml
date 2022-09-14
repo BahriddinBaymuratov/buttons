@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="@string/button"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:cornerRadius="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/button"
+        android:textSize="20sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/add"
+        android:layout_marginTop="10dp"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/ic_baseline_add_24"
+        app:iconGravity="textTop"
+        app:iconTint="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="@string/button"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="30dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="3dp" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="@string/button"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        app:cornerRadius="30dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/bbb"
+        app:icon="@drawable/ic_baseline_check_24"
+        app:iconTint="#0DFD03"
+        app:iconGravity="textStart" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#3B951A"
+        android:layout_marginTop="10dp"
+        android:text="@string/bbb"
+        app:icon="@drawable/ic_baseline_cached_24"
+        app:iconGravity="textStart" />
+
+
+</LinearLayout>
